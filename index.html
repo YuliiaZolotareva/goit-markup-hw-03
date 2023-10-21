@@ -21,50 +21,57 @@
   </head>
   <body>
     <!--NAV SECTION-->
-    <header class="main-header">
-      <nav class="main-nav">
-        <a class="logo" href="./index.html">Web<span class="logo-span">Studio</span></a>
-        <ul class="menu list">
-          <li class="menu-item" >
-            <a href="./index.html" class="menu-link">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a href="" class="menu-link">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a href="" class="menu-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
 
-      <address class="contacts-nav">
-        <ul class="contacts-lict">
-          <li class="contacts-item">
-            <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="contacts-item">
-            <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
-    </header>
+      <header class="main-header">
+        <div class="container header-container" >
+        <nav class="main-nav">
+          <a class="logo" href="./index.html">Web<span class="logo-span">Studio</span></a>
+          <ul class="menu list">
+            <li class="menu-item" >
+              <a href="./index.html" class="menu-link">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <address class="contacts-nav">
+          <ul class="contacts-lict">
+            <li class="contacts-item">
+              <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+      </header>
+    
+   
     <main>
       <!--NAV SECTION-->
 
       <!--HERO SECTION-->
-      <section class="hero">
+      <section class="hero hero-container">
+        <div class="container hero-container"> 
         <h1 class="main-title">Effective Solutions for Your Business</h1>
         <button type="button" class="button-main">Order Service</button>
+        </div>
       </section>
       <!--/HERO SECTION-->
 
       <!--BENEFITS SECTION-->
 
-      <section class="benefits-section">
-        <h2 class="benefits-name">content</h2>
-
+      <section class="benefits-section section-padding">
+        <div class="container">
+        <h2 class="visually-hidden">content</h2>
         <ul class="benefits-list">
-          <li class="benefits-item">
+          <li class="benefits-item"> 
             <h3 class="benefits-title">Strategy</h3>
             <p class="benefits-description">
               Our goal is to identify the business problem to walk away with the
@@ -93,19 +100,21 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
       <!--/BENEFITS SECTION-->
 
       <!--Team SECTION-->
 
-      <section class="team-section">
+      <section class="team-section section-padding">
+        <div class="container team-container ">
         <h2 class="team-title">Our Team</h2>
 
         <ul class="team-list">
           <li class="team-person">
             <img src="./images/img.jpg" width="264" alt="man in a blue shirt" />
-            <h3 class="team-name">Mark Guerrero</h3>
+            <h3 class="team-name ">Mark Guerrero</h3>
             <p class="team-position">Product Designer</p>
           </li>
 
@@ -139,13 +148,15 @@
             <p class="team-position">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
 
       <!--/Team SECTION-->
 
       <!--PORTFOLIO SECTION-->
     
-    <section>
+    <section class="section-padding">
+      <div class="container portfolio-container">
     <h2 class="portfolio-title">Our Portfolio</h2>
     <ul class="portfolio-list">
       <li class="portfolio-item">
@@ -179,11 +190,13 @@
         <p class="project-sector">Marketing</p>
       </li>
     </ul>
+  </div>
   </section>
   </main>
     <!--/PORTFOLIO SECTION-->
 
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo"
           >Web<span class="span-footer">Studio</span></a>
       <p class="footer-item">
@@ -191,5 +204,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+    </div>
   </body>
 </html>
