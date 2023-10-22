@@ -79,7 +79,8 @@ body {
 
 .menu-item{
     display: flex;
-    padding: 24px 0;
+    
+
 
 }
 .logo-span {
@@ -106,6 +107,7 @@ margin-right: 76px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .contacts-link {
 color: #434455;
@@ -115,6 +117,7 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 gap: 40px;
+padding: 24px 0;
 }
 .contacts-link:hover ,
 .contacts-link:active ,
@@ -129,14 +132,14 @@ gap: 40px;
 }
 .contacts-item {
     color:#2e2f42;
+
     
 }
 .header-container{
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 15px;
-     padding-right: 15px;
+    padding: 0 15px 0 15px;
     
 }
 .contacts-lict{
@@ -355,6 +358,7 @@ display: inline-block;
 }
 .span-footer {
 color:#F4F4FD;
+
 }
 
 .footer-item {
