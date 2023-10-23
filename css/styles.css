@@ -99,6 +99,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 color:#4d5ae5;
 margin-right: 76px;
+margin-left: 156px;
 }
 .menu-link {
     font-size: 16px;
@@ -236,7 +237,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color:#2E2F42;
-padding-bottom: 27px;
+
 margin-bottom: 72px;
 
 }
@@ -278,7 +279,7 @@ color: #434455;
 }
 .person-div{
     padding-top:32px ;
-    padding-bottom: 32px;
+    
 }
 
 /*-----------------/OUR TEAM STYLES--------------*/
@@ -298,7 +299,7 @@ margin-bottom: 72px;
     line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #2e2f42 ;
-    padding-top: 32px;
+    
     margin-bottom: 8px;
     
     
@@ -354,7 +355,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-bottom: 16px;
 display: inline-block;
 }
 .span-footer {
