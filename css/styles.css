@@ -9,6 +9,8 @@ ul, ol{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    display: flex;
+
 }
 img{
     display: block;
@@ -89,7 +91,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:  #2E2F42;
-margin-right: 76px;
+
+
 }
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -99,7 +102,6 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 color:#4d5ae5;
 margin-right: 76px;
-margin-left: 156px;
 }
 .menu-link {
     font-size: 16px;
@@ -252,6 +254,7 @@ margin-bottom: 72px;
 .team-person {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+      
 }
 .team-section {
     background-color:  #F4F4FD;
@@ -278,10 +281,18 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .person-div{
-    padding-top:32px ;
+    display: flex;
+width: 232px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+padding: 32px;
     
 }
+.team-img{
 
+}
 /*-----------------/OUR TEAM STYLES--------------*/
 
 /*-----------------PORTFOLIO STYLES--------------*/
@@ -310,7 +321,7 @@ margin-bottom: 72px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
+   
 }
 .portfolio-container
 {
@@ -356,6 +367,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block;
+margin-bottom: 17.5px;
 }
 .span-footer {
 color:#F4F4FD;
